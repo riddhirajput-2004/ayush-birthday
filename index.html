@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ayush 💜 Birthday</title>
 
-  <!-- Google Font -->
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
@@ -21,26 +21,32 @@
   <audio id="bgMusic" loop>
     <source src="music/palpal.mpeg" type="audio/mpeg">
   </audio>
-  <button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+  <button id="musicBtn" class="music-btn">🎵</button>
+
+  <!-- Candle -->
+  <div class="candle-container">
+    <div class="candle">
+      🕯️ <span class="flame">🔥</span>
+    </div>
+  </div>
+
+  <!-- Countdown -->
+  <div class="countdown">
+    <p id="countdownText"></p>
+  </div>
 
   <!-- Main Card -->
-   <div class="candle-container">
-  <div class="candle">
-    🕯️
-    <span class="flame">🔥</span>
-  </div>
-</div>
-
-<div class="countdown">
-  <p id="countdownText"></p>
-</div>
-
   <div class="card">
     <h1>🎂</h1>
-    <h2>जनमदिन की हार्दिक शुभकामनाएँ,<br><span>Cutiee 💜</span></h2>
+
+    <h2>
+      जनमदिन की हार्दिक शुभकामनाएँ,<br>
+      <span>Cutiee 💜</span>
+    </h2>
 
     <p class="sub-text">
-      आज का दिन थोड़ा ज़्यादा खास है…  
+      आज का दिन थोड़ा ज़्यादा खास है…<br>
       क्योंकि आज तुम्हारा दिन है Ayush 🧸
     </p>
 
@@ -51,35 +57,5 @@
     </div>
 
     <p class="ending">
-      पहले cute थे…  
+      पहले cute थे…<br>
       अब उससे भी ज़्यादा cute हो 💜
-    
-    </p>
-
-    <p style="font-size:13px;opacity:0.8;">💜 Tumhara din… tumhari website 💜</p>
-
-    <!-- Navigation -->
-    <div class="links">
-      <a href="love-letters.html">💌 Love Letters</a>
-      <a href="memory-lane.html">📸 Memory Lane</a>
-      <a href="transformation.html">🧸 Then → Cuter Now</a>
-      <a href="secret.html">🔐 Secret For You</a>
-    </div>
-  </div>
-
-  <div class="love-letter">
-  <p id="typedLetter"></p>
-</div>
-
-  <!-- Footer -->
-  <footer>
-    Made with 💜 just for Ayush
-  </footer>
-
-  <!-- JS -->
-  <script src="js/script.js"></script>
-
-</body>
-</html>
-
-
